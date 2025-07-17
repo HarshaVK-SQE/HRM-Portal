@@ -1,0 +1,18 @@
+🔧 Real-Time Scenario:
+Test Case Flow:
+
+Login with default credentials:
+
+Username: Admin
+
+Password: admin123
+
+Navigate to PIM > Add Employee
+
+Add an employee and upload a profile picture
+
+Verify employee was added
+
+Search and edit the employee
+
+Logout
