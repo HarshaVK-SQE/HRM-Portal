@@ -38,11 +38,11 @@ public class BaseTest extends BasePage{
 
     }
 
-//    @AfterClass
-//    public void tearDown() throws Exception{
-//
-//        quitDriver(5000);
-//
-//    }
+   @AfterClass
+   public void tearDown() throws Exception{
+
+       quitDriver(5000);
+
+   }
 
 }
