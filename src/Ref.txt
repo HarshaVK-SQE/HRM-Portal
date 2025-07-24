@@ -1,2 +1,3 @@
 this the the reference note for Suite.
 for Text Reference
+Added tc for home, login, pim page, search employee
