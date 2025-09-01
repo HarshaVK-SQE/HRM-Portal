@@ -121,4 +121,10 @@ public class BasePage {
         select.selectByVisibleText(visibleText);
 
     }
+
+    public void select_ByValue(By locator, String valueText){
+        Select select = new Select(findElement(locator));
+
+        select.selectByValue(valueText);
+    }
 }

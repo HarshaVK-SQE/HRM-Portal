@@ -4,11 +4,9 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest{
 
-    String userName = "Admin";
-    String passWord = "admin123";
 
-    @Test (priority = 1, groups = "search")
-    public void loginUser(){
+    @Test (priority = 1, groups = "search", dataProvider = "userDetails")
+    public void loginUser(String userName, String passWord){
 
         loginPage.loginUser(userName, passWord);
         loginPage.loginSuccessVal();
